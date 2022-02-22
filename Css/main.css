@@ -1,0 +1,165 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #111;
+    background: rgb(212, 219, 218);
+}
+
+.menu p {
+    /*target="_blank" : trang mới */ 
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    
+}
+.menu p a {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-decoration: white;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 40px 0px 60px;
+    font-size: 20px;
+    font-variant: small-caps;
+    color: rgb(5, 5, 14);
+}
+.menu p a:hover {
+    color: rgb(63, 162, 228);
+}
+.banner{
+    padding: 20px 50px;
+    margin: auto;
+    margin: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#wrpper {
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+.headline{
+    text-align-last: center;
+    margin: 40px 0px;
+    
+}
+h3{
+    font-size: 18px;
+    color: firebrick;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 2px solid firebrick;
+    display: inline-block;
+    font-weight: bold;
+}
+h4{
+    float: left;
+}
+ul.pro{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* khoảng cách bằng nhau */
+    width: 60%;
+    margin: auto; /*căn giữa */
+    
+}
+ul.pro li { /*căn đều */
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box; /* căn chỉnh lại cho đều */
+    margin-bottom: 25px;  
+    
+}
+ul.pro li .pro-item{
+    background-color: rgb(206, 214, 214);
+    
+}
+ul.pro li img {
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+}
+ul.pro li .pro-top{
+    position: relative;
+    overflow: hidden;
+    
+}
+ul.pro li .pro-top .pro-thumb {
+    display: block;
+}        
+ul.pro li:hover .pro-top .pro-thumb img{
+    filter: opacity(60%);
+    transform: scale(1.2);
+
+}
+ul.pro li .pro-top .pro-thumb img{/*bỏ khoảng cách bên dưới*/
+    display: block;
+}
+ul.pro li .pro-top a.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: royalblue;
+    color: wheat;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -36px;
+    width: 96%;            
+    transition: 0.25s ease-in-out; /*hiệu ứng nhảy lên*/
+    opacity: 3.0; /*làm mờ*/
+
+}
+ul.pro li:hover a.buy-now{
+    bottom: 0px;
+}
+ul.pro li .pro-info{
+    padding: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+ul.pro li .pro-info{
+    display: block;
+    text-decoration: none; /* bỏ . */
+    
+}
+ ul.pro li .pro-info .pro-cat{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: grey;
+    padding: 3px 0px;
+}
+ul.pro li .pro-info .pro-name{
+    text-decoration: none;
+    text-transform: inherit;
+    color: black;
+    padding: 3px 0px;
+}
+ul.pro li .pro-info .pro-price {
+    color: rgb(150, 120, 120);
+    padding: 2px 0px;
+    font-weight: 700;
+}
+:left{
+    width: 50%;
+}
+/* .left{
+    float : left;
+    width: 75%;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+} */
+/*
+.right{
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 25%;
+    background-color: whitesmoke;
+    margin-right: ;
+}
+p{
+    background-color: whitesmoke;
+}
+*/
