@@ -183,8 +183,8 @@ p{
 }
 .giua>p {
     color: white;
-position: relative;
-left: 200px;
+    position: relative;
+    left: 200px;
 }
 .phai{
     width: 20%;
@@ -197,3 +197,4 @@ left: 200px;
     width: 100%;
     height: 200px;
     border: 2px solid black;
+}
